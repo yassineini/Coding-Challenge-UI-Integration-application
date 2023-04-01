@@ -1,0 +1,36 @@
+{
+  "name": "coding-challenge-ui-integration-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode=development --open",
+    "build": "export NODE_ENV=production && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassineini/Coding-Challenge-UI-Integration-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassineini/Coding-Challenge-UI-Integration-application/issues"
+  },
+  "homepage": "https://github.com/yassineini/Coding-Challenge-UI-Integration-application#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "postcss-preset-env": "^8.3.0",
+    "style-loader": "^3.3.2",
+    "tailwindcss": "^3.3.1",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
